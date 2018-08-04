@@ -34,3 +34,12 @@ Proyecto realizado por:
 	- Con patrón N-Capas y utilizando ASP.NET 
 	- Diseño con Web Forms
 	- Deberá utilizar por lo menos una vez el tema threading y el envió de correo electrónico.
+
+4. Otras Anotaciones:
+	creamos pagina web en asp.net 
+	consulta estado de cuenta del cliente (necesita cuenta interna y cuenta externa)
+	cliente puede hacer tranferencia a otros usuarios u otros bancos
+	usuario puede hacer pago de servicios
+
+	consulta transacciones del cliente 
+	consulta cuanto dinero hay entre todos los clientes
