@@ -5,7 +5,7 @@ Programación III, Proyecto # 1
 Proyecto realizado por:
 	Carlos Perez Medina 
 	Marcela Salas Montoya
-  Maynor Rodriguez 
+  	Maynor Rodriguez Molina
   
 1. En que consiste?
 	a. Consiste en la posibilidad de que los clientes de una entidad financiera puedan realizar 
