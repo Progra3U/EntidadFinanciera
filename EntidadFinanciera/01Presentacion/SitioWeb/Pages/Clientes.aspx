@@ -1,0 +1,45 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/SitioWeb/PaginaMaestra.Master" AutoEventWireup="true" CodeBehind="Clientes.aspx.cs" Inherits="_01Presentacion.SitioWeb.Clientes" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+<body id="body">
+	<div class="sidebar">
+		<h2>Menu</h2>
+		<ul>
+            <li><a href="../Index.aspx">Inicio</a></li>
+			<li><a href="#" target="_blank" onclick="window.open(this.href, this.target, 'width=960,height=600,top=200,left=500'); return false;">Transacciones</a></li>
+            <li><a href="#" target="_blank" onclick="window.open(this.href, this.target, 'width=960,height=600,top=200,left=500'); return false;">Estados de Cuenta</a></li>
+            <li><a href="#" target="_blank" onclick="window.open(this.href, this.target, 'width=960,height=600,top=200,left=500'); return false;">Transferencias</a></li>
+            <li><a href="#" target="_blank" onclick="window.open(this.href, this.target, 'width=960,height=600,top=200,left=500'); return false;">Pago de Servicios</a></li>
+			<li><a href="Login.aspx">Salir</a></li>
+		</ul>
+	</div>
+	<div class="Central">
+        <h2>Sesion de Cliente</h2>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+	</div>
+</body>
+</asp:Content>

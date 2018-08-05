@@ -10,8 +10,8 @@
         <ul>
           <li><a href="#">Inicio</a></li>
           <li><a href="#">Blog</a></li>
-          <li><a href="#">Contacto</a></li>
-            <li><a href="#">Login</a></li>
+          <li><a href="#" target="_blank" onclick="window.open(this.href, this.target, 'width=900,height=500,top=200,left=500'); return false;">Contacto</a></li>
+          <li><a href="Pages/Login.aspx">Login</a></li>
         </ul>
       </nav>
     </div>
@@ -23,7 +23,7 @@
         <div class="container">
       <section id="slides">
         <div class="container">
-          <div><a href="#" id=""><img src="Imagenes/Fondo/banco.jpg" alt="Fondo Principal"></a></div>
+          <div><a href="#" id=""><img src="Imagenes/Fondo/banco.jpg" alt="Fondo Principal" /></a></div>
         </div>
       </section>
 
@@ -32,7 +32,7 @@
           <h2>Bienvenido a InterBankCom</h2>
           <p>
               Somos un Banco comprometido con el exito de nuestros clientes, por lo cual no juzgamos la procedencia de los fondos 
-              de los mismos, ya que confiamos plenamente en el cliente ya que este es el pedestal de nuestra organización.
+              de los mismos. Nosotros confiamos plenamente en el cliente, ya que este es el pedestal de nuestra organización.
           </p>
         </article>
       </section>

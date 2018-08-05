@@ -10,7 +10,8 @@
 <!--Agregando meta para autores-->
 <meta name="author" content="Carlos Perez Medina Marcela Salas Montoya Maynor Rodriguez" />
 <!--Agregando hoja de estilos-->
-<link href="CSS/StyleSheet.css" rel="stylesheet" type="text/css" />
+<link href="Css/StyleSheet.css" rel="stylesheet" type="text/css" />
+
 
     <title>InterBankCom</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
@@ -24,5 +25,7 @@
         </asp:ContentPlaceHolder>
     </div>
     </form>
+    <script src="Js/jquery-3.1.1.min.js"></script>    
+    <script src="Js/main.js"></script>
 </body>
 </html>

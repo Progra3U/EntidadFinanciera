@@ -24,6 +24,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -98,11 +99,20 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="SitioWeb\Css\StyleIndex.css" />
+    <Content Include="SitioWeb\Css\Stylelogin.css" />
+    <Content Include="SitioWeb\Css\StylePages.css" />
+    <Content Include="SitioWeb\Css\StyleSubPages.css" />
+    <Content Include="SitioWeb\Js\jquery-3.1.1.min.js" />
+    <Content Include="SitioWeb\Js\main.js" />
+    <Content Include="SitioWeb\Pages\Administradores.aspx" />
+    <Content Include="SitioWeb\Pages\Clientes.aspx" />
     <Content Include="SitioWeb\Imagenes\Fondo\banco.jpg" />
     <Content Include="SitioWeb\Imagenes\Iconos\facebook.png" />
     <Content Include="SitioWeb\Imagenes\Iconos\google.png" />
     <Content Include="SitioWeb\Imagenes\Iconos\twitter2.png" />
     <Content Include="SitioWeb\Imagenes\Iconos\youtube.png" />
+    <Content Include="SitioWeb\Pages\Login.aspx" />
     <Content Include="SitioWeb\PaginaMaestra.Master" />
     <Content Include="SitioWeb\Fonts\Quattrocento\Quattrocento-Bold.ttf" />
     <Content Include="SitioWeb\Fonts\Quattrocento\Quattrocento-Regular.ttf" />
@@ -119,10 +129,11 @@
     <Content Include="Global.asax" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
-    <Content Include="SitioWeb\CSS\Fonts.css" />
-    <Content Include="SitioWeb\CSS\reset.css" />
-    <Content Include="SitioWeb\CSS\StyleSheet.css" />
+    <Content Include="SitioWeb\Css\Fonts.css" />
+    <Content Include="SitioWeb\Css\reset.css" />
+    <Content Include="SitioWeb\Css\StyleSheet.css" />
     <Content Include="SitioWeb\Index.aspx" />
+    <Content Include="SitioWeb\Pages\Usuarios.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -130,12 +141,33 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SitioWeb\Pages\Administradores.aspx.cs">
+      <DependentUpon>Administradores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SitioWeb\Pages\Administradores.aspx.designer.cs">
+      <DependentUpon>Administradores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SitioWeb\Pages\Clientes.aspx.cs">
+      <DependentUpon>Clientes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SitioWeb\Pages\Clientes.aspx.designer.cs">
+      <DependentUpon>Clientes.aspx</DependentUpon>
+    </Compile>
     <Compile Include="SitioWeb\Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="SitioWeb\Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SitioWeb\Pages\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SitioWeb\Pages\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="SitioWeb\PaginaMaestra.Master.cs">
       <DependentUpon>PaginaMaestra.Master</DependentUpon>
@@ -144,10 +176,20 @@
     <Compile Include="SitioWeb\PaginaMaestra.Master.designer.cs">
       <DependentUpon>PaginaMaestra.Master</DependentUpon>
     </Compile>
+    <Compile Include="SitioWeb\Pages\Usuarios.aspx.cs">
+      <DependentUpon>Usuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SitioWeb\Pages\Usuarios.aspx.designer.cs">
+      <DependentUpon>Usuarios.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="SitioWeb\Pages\SubPages\Administradores\" />
+    <Folder Include="SitioWeb\Pages\SubPages\Clientes\" />
+    <Folder Include="SitioWeb\Pages\SubPages\Usuarios\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
