@@ -11,8 +11,7 @@
 <meta name="author" content="Carlos Perez Medina Marcela Salas Montoya Maynor Rodriguez" />
 <!--Agregando hoja de estilos-->
 <link href="Css/StyleSheet.css" rel="stylesheet" type="text/css" />
-
-
+    
     <title>InterBankCom</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
