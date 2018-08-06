@@ -7,10 +7,10 @@
 		<h2>Menu</h2>
 		<ul>
             <li><a href="../Index.aspx">Inicio</a></li>
-			<li><a href="#" target="_blank" onclick="window.open(this.href, this.target, 'width=960,height=600,top=200,left=500'); return false;">Transacciones</a></li>
-            <li><a href="#" target="_blank" onclick="window.open(this.href, this.target, 'width=960,height=600,top=200,left=500'); return false;">Estados de Cuenta</a></li>
-            <li><a href="#" target="_blank" onclick="window.open(this.href, this.target, 'width=960,height=600,top=200,left=500'); return false;">Transferencias</a></li>
-            <li><a href="#" target="_blank" onclick="window.open(this.href, this.target, 'width=960,height=600,top=200,left=500'); return false;">Pago de Servicios</a></li>
+			<li><a href="#" target="_blank" onclick="window.open(this.href, this.target, 'width=960,height=900,top=50,left=500'); return false;">Transacciones</a></li>
+            <li><a href="#" target="_blank" onclick="window.open(this.href, this.target, 'width=960,height=900,top=50,left=500'); return false;">Estados de Cuenta</a></li>
+            <li><a href="#" target="_blank" onclick="window.open(this.href, this.target, 'width=960,height=900,top=50,left=500'); return false;">Transferencias</a></li>
+            <li><a href="#" target="_blank" onclick="window.open(this.href, this.target, 'width=960,height=900,top=50,left=500'); return false;">Pago de Servicios</a></li>
 			<li><a href="Login.aspx">Salir</a></li>
 		</ul>
 	</div>
