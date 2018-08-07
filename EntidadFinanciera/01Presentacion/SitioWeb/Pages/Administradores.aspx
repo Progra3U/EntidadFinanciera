@@ -10,7 +10,7 @@
 			<li><a href="#" target="_blank" onclick="window.open(this.href, this.target, 'width=960,height=800,top=50,left=500'); return false;">Productos</a></li>
             <li><a href="#" target="_blank" onclick="window.open(this.href, this.target, 'width=960,height=800,top=50,left=500'); return false;">servicios</a></li>
             <li><a href="SubPages/Administradores/A_Clientes.aspx" target="_blank" onclick="window.open(this.href, this.target, 'width=960,height=800,top=50,left=500'); return false;">Clientes</a></li>
-            <li><a href="#" target="_blank" onclick="window.open(this.href, this.target, 'width=960,height=800,top=50,left=500'); return false;">Usuarios</a></li>
+            <li><a href="SubPages/Administradores/A_Usuarios.aspx" target="_blank" onclick="window.open(this.href, this.target, 'width=960,height=800,top=50,left=500'); return false;">Usuarios</a></li>
 			<li><a href="#" target="_blank" onclick="window.open(this.href, this.target, 'width=960,height=800,top=50,left=500'); return false;">Transacciones</a></li>
 			<li><a href="#" target="_blank" onclick="window.open(this.href, this.target, 'width=960,height=800,top=50,left=500'); return false;">Montos Globales</a></li>
             <li><a href="#" target="_blank" onclick="window.open(this.href, this.target, 'width=960,height=800,top=50,left=500'); return false;">Estados de Cuenta</a></li>

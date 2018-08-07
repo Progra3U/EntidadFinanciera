@@ -10,16 +10,16 @@
 namespace _01Presentacion.SitioWeb.Pages.SubPages.Administradores {
     
     
-    public partial class A_Clientes {
+    public partial class A_Usuarios {
         
         /// <summary>
-        /// Cedula control.
+        /// Usuario control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Cedula;
+        protected global::System.Web.UI.WebControls.TextBox Usuario;
         
         /// <summary>
         /// Nombre control.
@@ -29,69 +29,6 @@ namespace _01Presentacion.SitioWeb.Pages.SubPages.Administradores {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox Nombre;
-        
-        /// <summary>
-        /// PrimerApellido control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox PrimerApellido;
-        
-        /// <summary>
-        /// SegundoApellido control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox SegundoApellido;
-        
-        /// <summary>
-        /// FechaNac control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox FechaNac;
-        
-        /// <summary>
-        /// Telefono control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Telefono;
-        
-        /// <summary>
-        /// Correo control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Correo;
-        
-        /// <summary>
-        /// Direccion control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Direccion;
-        
-        /// <summary>
-        /// Monto control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Monto;
         
         /// <summary>
         /// Contrasena control.

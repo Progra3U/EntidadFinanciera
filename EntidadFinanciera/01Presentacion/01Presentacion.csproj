@@ -114,6 +114,7 @@
     <Content Include="SitioWeb\Imagenes\Iconos\youtube.png" />
     <Content Include="SitioWeb\Pages\Login.aspx" />
     <Content Include="SitioWeb\Pages\SubPages\Administradores\A_Clientes.aspx" />
+    <Content Include="SitioWeb\Pages\SubPages\Administradores\A_Usuarios.aspx" />
     <Content Include="SitioWeb\PaginaMaestra.Master" />
     <Content Include="SitioWeb\Fonts\Quattrocento\Quattrocento-Bold.ttf" />
     <Content Include="SitioWeb\Fonts\Quattrocento\Quattrocento-Regular.ttf" />
@@ -176,6 +177,13 @@
     </Compile>
     <Compile Include="SitioWeb\Pages\SubPages\Administradores\A_Clientes.aspx.designer.cs">
       <DependentUpon>A_Clientes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SitioWeb\Pages\SubPages\Administradores\A_Usuarios.aspx.cs">
+      <DependentUpon>A_Usuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SitioWeb\Pages\SubPages\Administradores\A_Usuarios.aspx.designer.cs">
+      <DependentUpon>A_Usuarios.aspx</DependentUpon>
     </Compile>
     <Compile Include="SitioWeb\PaginaMaestra.Master.cs">
       <DependentUpon>PaginaMaestra.Master</DependentUpon>

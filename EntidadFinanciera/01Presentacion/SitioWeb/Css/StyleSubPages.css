@@ -7,7 +7,6 @@
 }
 #FormUsuarios {
     width: 350px;
-    height: 650px;
     background-color: darkblue;
     border: 1px solid #ccc;
     margin: auto;
@@ -29,9 +28,9 @@
 }
 .botones {
     display: inline-block;
-    margin: 15px 5px 0px 15px;
-    padding: 10px;
-    border: 1px solid firebrick;
+    margin: 20px 0px 0px 5px;
+    padding: 6px;
+    border: 1px solid #fff;
     background-color: #000;
     font-weight: bold;
     color: #ffffff;
