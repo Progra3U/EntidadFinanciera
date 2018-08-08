@@ -16,21 +16,29 @@ namespace _01Presentacion.SitioWeb.Pages
 
         protected void enviar_Click(object sender, EventArgs e)
         {
-            if (Usuario.Text.Equals("Admin") && Password.Text.Equals("1234"))
+            try
             {
-                Response.Redirect("Administradores.aspx");
+                if (Usuario.Text.Equals("Admin") && Password.Text.Equals("1234"))
+                {
+                    Response.Redirect("Administradores.aspx");
+                }
+                else if (Usuario.Text.Equals("Cliente") && Password.Text.Equals("1234"))
+                {
+                    Response.Redirect("Clientes.aspx");
+                }
+                else if (Usuario.Text.Equals("Usuario") && Password.Text.Equals("1234"))
+                {
+                    Response.Redirect("Usuarios.aspx");
+                }
+                else
+                {
+                    error.Text = "Error en contrasena o Usuario";
+                }
             }
-            else if (Usuario.Text.Equals("Cliente") && Password.Text.Equals("1234"))
+            catch (Exception ex)
             {
-                Response.Redirect("Clientes.aspx");
-            }
-            else if (Usuario.Text.Equals("Usuario") && Password.Text.Equals("1234"))
-            {
-                Response.Redirect("Usuarios.aspx");
-            }
-            else
-            {
-                error.Text = "Error en contrasena o Usuario";
+
+                throw ex;
             }
 
             #region Login
