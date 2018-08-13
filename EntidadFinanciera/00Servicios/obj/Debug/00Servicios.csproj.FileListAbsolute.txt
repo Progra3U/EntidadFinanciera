@@ -1,0 +1,7 @@
+C:\Users\CARLOSANDRESPEREZMED\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\00Servicios\bin\00Servicios.dll.config
+C:\Users\CARLOSANDRESPEREZMED\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\00Servicios\bin\00Servicios.dll
+C:\Users\CARLOSANDRESPEREZMED\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\00Servicios\bin\00Servicios.pdb
+C:\Users\CARLOSANDRESPEREZMED\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\00Servicios\obj\Debug\00Servicios.csprojAssemblyReference.cache
+C:\Users\CARLOSANDRESPEREZMED\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\00Servicios\obj\Debug\00Servicios.csproj.CoreCompileInputs.cache
+C:\Users\CARLOSANDRESPEREZMED\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\00Servicios\obj\Debug\00Servicios.dll
+C:\Users\CARLOSANDRESPEREZMED\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\00Servicios\obj\Debug\00Servicios.pdb

@@ -206,6 +206,12 @@
     <Folder Include="SitioWeb\Pages\SubPages\Clientes\" />
     <Folder Include="SitioWeb\Pages\SubPages\Usuarios\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\04Entidades\04Entidades.csproj">
+      <Project>{b85bb45a-bb01-453c-915e-b02aa78c888e}</Project>
+      <Name>04Entidades</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
