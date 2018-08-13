@@ -63,7 +63,7 @@ namespace _01Presentacion.SitioWeb.Pages.SubPages.Administradores
             {
                 //Informacion del correo a enviar
                 msj = new MailMessage();
-                msj.To.Add(new MailAddress(CorreoAEnviar);  //modificar 
+                msj.To.Add(new MailAddress(CorreoAEnviar));  //modificar 
                 msj.From = new MailAddress("enviocorreos2019@gmail.com");
                 msj.Subject = "Apertura de Cuenta para "+ Nombre.Text; //modificar
                 msj.Body = "<b> Hola... Este es un correo de pruebas </b>"+ Mensaje; //modificar
