@@ -7,13 +7,23 @@
 		<h2>Menu</h2>
 		<ul>
             <li><a href="../Index.aspx">Inicio</a></li>
-			<li><a href="#" target="_blank" onclick="window.open(this.href, this.target, 'width=960,height=900,top=50,left=500'); return false;">Productos</a></li>
-            <li><a href="#" target="_blank" onclick="window.open(this.href, this.target, 'width=960,height=900,top=50,left=500'); return false;">servicios</a></li>
-            <li><a href="#" target="_blank" onclick="window.open(this.href, this.target, 'width=960,height=900,top=50,left=500'); return false;">Clientes</a></li>
-			<li><a href="#" target="_blank" onclick="window.open(this.href, this.target, 'width=960,height=900,top=50,left=500'); return false;">Transacciones</a></li>
-            <li><a href="#" target="_blank" onclick="window.open(this.href, this.target, 'width=960,height=900,top=50,left=500'); return false;">Estados de Cuenta</a></li>
-            <li><a href="#" target="_blank" onclick="window.open(this.href, this.target, 'width=960,height=900,top=50,left=500'); return false;">Transferencias</a></li>
-            <li><a href="#" target="_blank" onclick="window.open(this.href, this.target, 'width=960,height=900,top=50,left=500'); return false;">Pago de Servicios</a></li>
+            <li><a href="SubPages/Administradores/A_Clientes.aspx" target="_blank" onclick="window.open(this.href, this.target, 'width=960,height=900,top=50,left=500'); return false;">Clientes</a></li>
+            <li><a href="SubPages/Administradores/A_EstadosdeCuenta.aspx" target="_blank" onclick="window.open(this.href, this.target, 'width=960,height=900,top=50,left=500'); return false;">Estados de Cuenta</a></li>
+            <li><a href="#">Transferencias</a>
+                <ul>
+			        <li><a href="SubPages/Clientes/C_TransferenciasI.aspx" target="_blank" onclick="window.open(this.href, this.target, 'width=960,height=900,top=50,left=500'); return false;">Internas</a></li>
+			        <li><a href="SubPages/Clientes/C_TransferenciasE.aspx" target="_blank" onclick="window.open(this.href, this.target, 'width=960,height=900,top=50,left=500'); return false;">Externas</a></li>
+		        </ul>
+            </li>
+            <li><a href="#">Pago de Servicios</a>
+                <ul>
+			        <li><a href="SubPages/Clientes/C_Agua.aspx" target="_blank" onclick="window.open(this.href, this.target, 'width=960,height=900,top=50,left=500'); return false;">Agua</a></li>
+			        <li><a href="SubPages/Clientes/C_Luz.aspx" target="_blank" onclick="window.open(this.href, this.target, 'width=960,height=900,top=50,left=500'); return false;">Luz</a></li>
+			        <li><a href="SubPages/Clientes/C_Telefono.aspx" target="_blank" onclick="window.open(this.href, this.target, 'width=960,height=900,top=50,left=500'); return false;">Telefono</a></li>
+                    <li><a href="SubPages/Clientes/C_TV.aspx" target="_blank" onclick="window.open(this.href, this.target, 'width=960,height=900,top=50,left=500'); return false;">TV</a></li>
+                    <li><a href="SubPages/Clientes/C_Internet.aspx" target="_blank" onclick="window.open(this.href, this.target, 'width=960,height=900,top=50,left=500'); return false;">Internet</a></li>
+		        </ul>
+            </li>
 			<li><a >Salir</a></li>
 		</ul>
 	</div>

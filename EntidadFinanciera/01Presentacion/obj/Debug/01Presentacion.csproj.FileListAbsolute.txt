@@ -66,3 +66,5 @@ C:\Users\CARLOSANDRESPEREZMED\Documents\GitHub\EntidadFinanciera\EntidadFinancie
 C:\Users\CARLOSANDRESPEREZMED\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\01Presentacion\obj\Debug\01Presentacion.csproj.CopyComplete
 C:\Users\CARLOSANDRESPEREZMED\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\01Presentacion\obj\Debug\01Presentacion.dll
 C:\Users\CARLOSANDRESPEREZMED\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\01Presentacion\obj\Debug\01Presentacion.pdb
+C:\Users\CARLOSANDRESPEREZMED\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\01Presentacion\bin\04Entidades.dll
+C:\Users\CARLOSANDRESPEREZMED\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\01Presentacion\bin\04Entidades.pdb

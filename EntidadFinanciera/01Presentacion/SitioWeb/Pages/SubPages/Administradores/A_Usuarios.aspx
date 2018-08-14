@@ -14,7 +14,6 @@
                 <asp:Label class="label" runat="server" For="Contrasena">Contrasena:</asp:Label>
                 <asp:TextBox class="textBox" size="30" type="password" ID="Contrasena"  MaxLength="12" placeholder="Password" required runat="server"></asp:TextBox> 
                 <asp:TextBox class="textBox" size="30" type="password" ID="Contrasena2" MaxLength="12" placeholder="Repeat Password" required runat="server"></asp:TextBox>
-                
             </form>
             <asp:Button class="botones" ID="Agregar" runat="server" Text="Agregar" OnClick="Agregar_Click" />
             <asp:Button class="botones" ID="Actualizar" runat="server" Text="Actualizar" OnClick="Actualizar_Click" />

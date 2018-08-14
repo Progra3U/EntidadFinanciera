@@ -114,7 +114,19 @@
     <Content Include="SitioWeb\Imagenes\Iconos\youtube.png" />
     <Content Include="SitioWeb\Pages\Login.aspx" />
     <Content Include="SitioWeb\Pages\SubPages\Administradores\A_Clientes.aspx" />
+    <Content Include="SitioWeb\Pages\SubPages\Administradores\A_EstadosdeCuenta.aspx" />
+    <Content Include="SitioWeb\Pages\SubPages\Administradores\A_Globales.aspx" />
+    <Content Include="SitioWeb\Pages\SubPages\Administradores\A_Servicios.aspx" />
+    <Content Include="SitioWeb\Pages\SubPages\Administradores\A_Transferencias.aspx" />
     <Content Include="SitioWeb\Pages\SubPages\Administradores\A_Usuarios.aspx" />
+    <Content Include="SitioWeb\Pages\SubPages\Clientes\C_Agua.aspx" />
+    <Content Include="SitioWeb\Pages\SubPages\Clientes\C_EstadosdeCuenta.aspx" />
+    <Content Include="SitioWeb\Pages\SubPages\Clientes\C_Internet.aspx" />
+    <Content Include="SitioWeb\Pages\SubPages\Clientes\C_Luz.aspx" />
+    <Content Include="SitioWeb\Pages\SubPages\Clientes\C_Telefono.aspx" />
+    <Content Include="SitioWeb\Pages\SubPages\Clientes\C_TransferenciasE.aspx" />
+    <Content Include="SitioWeb\Pages\SubPages\Clientes\C_TransferenciasI.aspx" />
+    <Content Include="SitioWeb\Pages\SubPages\Clientes\C_TV.aspx" />
     <Content Include="SitioWeb\PaginaMaestra.Master" />
     <Content Include="SitioWeb\Fonts\Quattrocento\Quattrocento-Bold.ttf" />
     <Content Include="SitioWeb\Fonts\Quattrocento\Quattrocento-Regular.ttf" />
@@ -178,12 +190,96 @@
     <Compile Include="SitioWeb\Pages\SubPages\Administradores\A_Clientes.aspx.designer.cs">
       <DependentUpon>A_Clientes.aspx</DependentUpon>
     </Compile>
+    <Compile Include="SitioWeb\Pages\SubPages\Administradores\A_EstadosdeCuenta.aspx.cs">
+      <DependentUpon>A_EstadosdeCuenta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SitioWeb\Pages\SubPages\Administradores\A_EstadosdeCuenta.aspx.designer.cs">
+      <DependentUpon>A_EstadosdeCuenta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SitioWeb\Pages\SubPages\Administradores\A_Globales.aspx.cs">
+      <DependentUpon>A_Globales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SitioWeb\Pages\SubPages\Administradores\A_Globales.aspx.designer.cs">
+      <DependentUpon>A_Globales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SitioWeb\Pages\SubPages\Administradores\A_Servicios.aspx.cs">
+      <DependentUpon>A_Servicios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SitioWeb\Pages\SubPages\Administradores\A_Servicios.aspx.designer.cs">
+      <DependentUpon>A_Servicios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SitioWeb\Pages\SubPages\Administradores\A_Transferencias.aspx.cs">
+      <DependentUpon>A_Transferencias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SitioWeb\Pages\SubPages\Administradores\A_Transferencias.aspx.designer.cs">
+      <DependentUpon>A_Transferencias.aspx</DependentUpon>
+    </Compile>
     <Compile Include="SitioWeb\Pages\SubPages\Administradores\A_Usuarios.aspx.cs">
       <DependentUpon>A_Usuarios.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="SitioWeb\Pages\SubPages\Administradores\A_Usuarios.aspx.designer.cs">
       <DependentUpon>A_Usuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SitioWeb\Pages\SubPages\Clientes\C_Agua.aspx.cs">
+      <DependentUpon>C_Agua.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SitioWeb\Pages\SubPages\Clientes\C_Agua.aspx.designer.cs">
+      <DependentUpon>C_Agua.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SitioWeb\Pages\SubPages\Clientes\C_EstadosdeCuenta.aspx.cs">
+      <DependentUpon>C_EstadosdeCuenta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SitioWeb\Pages\SubPages\Clientes\C_EstadosdeCuenta.aspx.designer.cs">
+      <DependentUpon>C_EstadosdeCuenta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SitioWeb\Pages\SubPages\Clientes\C_Internet.aspx.cs">
+      <DependentUpon>C_Internet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SitioWeb\Pages\SubPages\Clientes\C_Internet.aspx.designer.cs">
+      <DependentUpon>C_Internet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SitioWeb\Pages\SubPages\Clientes\C_Luz.aspx.cs">
+      <DependentUpon>C_Luz.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SitioWeb\Pages\SubPages\Clientes\C_Luz.aspx.designer.cs">
+      <DependentUpon>C_Luz.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SitioWeb\Pages\SubPages\Clientes\C_Telefono.aspx.cs">
+      <DependentUpon>C_Telefono.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SitioWeb\Pages\SubPages\Clientes\C_Telefono.aspx.designer.cs">
+      <DependentUpon>C_Telefono.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SitioWeb\Pages\SubPages\Clientes\C_TransferenciasE.aspx.cs">
+      <DependentUpon>C_TransferenciasE.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SitioWeb\Pages\SubPages\Clientes\C_TransferenciasE.aspx.designer.cs">
+      <DependentUpon>C_TransferenciasE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SitioWeb\Pages\SubPages\Clientes\C_TransferenciasI.aspx.cs">
+      <DependentUpon>C_TransferenciasI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SitioWeb\Pages\SubPages\Clientes\C_TransferenciasI.aspx.designer.cs">
+      <DependentUpon>C_TransferenciasI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SitioWeb\Pages\SubPages\Clientes\C_TV.aspx.cs">
+      <DependentUpon>C_TV.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SitioWeb\Pages\SubPages\Clientes\C_TV.aspx.designer.cs">
+      <DependentUpon>C_TV.aspx</DependentUpon>
     </Compile>
     <Compile Include="SitioWeb\PaginaMaestra.Master.cs">
       <DependentUpon>PaginaMaestra.Master</DependentUpon>
@@ -203,7 +299,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="SitioWeb\Pages\SubPages\Clientes\" />
     <Folder Include="SitioWeb\Pages\SubPages\Usuarios\" />
   </ItemGroup>
   <ItemGroup>
