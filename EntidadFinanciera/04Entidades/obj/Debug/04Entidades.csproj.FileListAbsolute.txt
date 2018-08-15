@@ -3,3 +3,4 @@ C:\Users\CARLOSANDRESPEREZMED\Documents\GitHub\EntidadFinanciera\EntidadFinancie
 C:\Users\CARLOSANDRESPEREZMED\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\04Entidades\obj\Debug\04Entidades.csproj.CoreCompileInputs.cache
 C:\Users\CARLOSANDRESPEREZMED\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\04Entidades\obj\Debug\04Entidades.dll
 C:\Users\CARLOSANDRESPEREZMED\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\04Entidades\obj\Debug\04Entidades.pdb
+C:\Users\CARLOSANDRESPEREZMED\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\04Entidades\obj\Debug\04Entidades.csprojAssemblyReference.cache
