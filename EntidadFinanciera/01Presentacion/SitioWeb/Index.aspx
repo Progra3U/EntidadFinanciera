@@ -8,9 +8,6 @@
       <div id="logotipo"><p><a href="#">InterBankCom</a></p></div>
       <nav>
         <ul>
-          <li><a href="#">Inicio</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#" target="_blank" onclick="window.open(this.href, this.target, 'width=900,height=500,top=200,left=500'); return false;">Contacto</a></li>
           <li><a href="Pages/Login.aspx">Login</a></li>
         </ul>
       </nav>

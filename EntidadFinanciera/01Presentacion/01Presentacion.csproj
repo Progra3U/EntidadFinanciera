@@ -119,14 +119,12 @@
     <Content Include="SitioWeb\Pages\SubPages\Administradores\A_Servicios.aspx" />
     <Content Include="SitioWeb\Pages\SubPages\Administradores\A_Transferencias.aspx" />
     <Content Include="SitioWeb\Pages\SubPages\Administradores\A_Usuarios.aspx" />
-    <Content Include="SitioWeb\Pages\SubPages\Clientes\C_Agua.aspx" />
+    <Content Include="SitioWeb\Pages\SubPages\Clientes\C_AguayLuz.aspx" />
     <Content Include="SitioWeb\Pages\SubPages\Clientes\C_EstadosdeCuenta.aspx" />
-    <Content Include="SitioWeb\Pages\SubPages\Clientes\C_Internet.aspx" />
-    <Content Include="SitioWeb\Pages\SubPages\Clientes\C_Luz.aspx" />
-    <Content Include="SitioWeb\Pages\SubPages\Clientes\C_Telefono.aspx" />
+    <Content Include="SitioWeb\Pages\SubPages\Clientes\C_TelefonoyPrepago.aspx" />
     <Content Include="SitioWeb\Pages\SubPages\Clientes\C_TransferenciasE.aspx" />
     <Content Include="SitioWeb\Pages\SubPages\Clientes\C_TransferenciasI.aspx" />
-    <Content Include="SitioWeb\Pages\SubPages\Clientes\C_TV.aspx" />
+    <Content Include="SitioWeb\Pages\SubPages\Clientes\C_TVeInternet.aspx" />
     <Content Include="SitioWeb\PaginaMaestra.Master" />
     <Content Include="SitioWeb\Fonts\Quattrocento\Quattrocento-Bold.ttf" />
     <Content Include="SitioWeb\Fonts\Quattrocento\Quattrocento-Regular.ttf" />
@@ -225,12 +223,12 @@
     <Compile Include="SitioWeb\Pages\SubPages\Administradores\A_Usuarios.aspx.designer.cs">
       <DependentUpon>A_Usuarios.aspx</DependentUpon>
     </Compile>
-    <Compile Include="SitioWeb\Pages\SubPages\Clientes\C_Agua.aspx.cs">
-      <DependentUpon>C_Agua.aspx</DependentUpon>
+    <Compile Include="SitioWeb\Pages\SubPages\Clientes\C_AguayLuz.aspx.cs">
+      <DependentUpon>C_AguayLuz.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="SitioWeb\Pages\SubPages\Clientes\C_Agua.aspx.designer.cs">
-      <DependentUpon>C_Agua.aspx</DependentUpon>
+    <Compile Include="SitioWeb\Pages\SubPages\Clientes\C_AguayLuz.aspx.designer.cs">
+      <DependentUpon>C_AguayLuz.aspx</DependentUpon>
     </Compile>
     <Compile Include="SitioWeb\Pages\SubPages\Clientes\C_EstadosdeCuenta.aspx.cs">
       <DependentUpon>C_EstadosdeCuenta.aspx</DependentUpon>
@@ -239,26 +237,12 @@
     <Compile Include="SitioWeb\Pages\SubPages\Clientes\C_EstadosdeCuenta.aspx.designer.cs">
       <DependentUpon>C_EstadosdeCuenta.aspx</DependentUpon>
     </Compile>
-    <Compile Include="SitioWeb\Pages\SubPages\Clientes\C_Internet.aspx.cs">
-      <DependentUpon>C_Internet.aspx</DependentUpon>
+    <Compile Include="SitioWeb\Pages\SubPages\Clientes\C_TelefonoyPrepago.aspx.cs">
+      <DependentUpon>C_TelefonoyPrepago.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="SitioWeb\Pages\SubPages\Clientes\C_Internet.aspx.designer.cs">
-      <DependentUpon>C_Internet.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="SitioWeb\Pages\SubPages\Clientes\C_Luz.aspx.cs">
-      <DependentUpon>C_Luz.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SitioWeb\Pages\SubPages\Clientes\C_Luz.aspx.designer.cs">
-      <DependentUpon>C_Luz.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="SitioWeb\Pages\SubPages\Clientes\C_Telefono.aspx.cs">
-      <DependentUpon>C_Telefono.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SitioWeb\Pages\SubPages\Clientes\C_Telefono.aspx.designer.cs">
-      <DependentUpon>C_Telefono.aspx</DependentUpon>
+    <Compile Include="SitioWeb\Pages\SubPages\Clientes\C_TelefonoyPrepago.aspx.designer.cs">
+      <DependentUpon>C_TelefonoyPrepago.aspx</DependentUpon>
     </Compile>
     <Compile Include="SitioWeb\Pages\SubPages\Clientes\C_TransferenciasE.aspx.cs">
       <DependentUpon>C_TransferenciasE.aspx</DependentUpon>
@@ -274,12 +258,12 @@
     <Compile Include="SitioWeb\Pages\SubPages\Clientes\C_TransferenciasI.aspx.designer.cs">
       <DependentUpon>C_TransferenciasI.aspx</DependentUpon>
     </Compile>
-    <Compile Include="SitioWeb\Pages\SubPages\Clientes\C_TV.aspx.cs">
-      <DependentUpon>C_TV.aspx</DependentUpon>
+    <Compile Include="SitioWeb\Pages\SubPages\Clientes\C_TVeInternet.aspx.cs">
+      <DependentUpon>C_TVeInternet.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="SitioWeb\Pages\SubPages\Clientes\C_TV.aspx.designer.cs">
-      <DependentUpon>C_TV.aspx</DependentUpon>
+    <Compile Include="SitioWeb\Pages\SubPages\Clientes\C_TVeInternet.aspx.designer.cs">
+      <DependentUpon>C_TVeInternet.aspx</DependentUpon>
     </Compile>
     <Compile Include="SitioWeb\PaginaMaestra.Master.cs">
       <DependentUpon>PaginaMaestra.Master</DependentUpon>

@@ -17,14 +17,12 @@
             </li>
             <li><a href="#">Pago de Servicios</a>
                 <ul>
-			        <li><a href="SubPages/Clientes/C_Agua.aspx" target="_blank" onclick="window.open(this.href, this.target, 'width=960,height=900,top=50,left=500'); return false;">Agua</a></li>
-			        <li><a href="SubPages/Clientes/C_Luz.aspx" target="_blank" onclick="window.open(this.href, this.target, 'width=960,height=900,top=50,left=500'); return false;">Luz</a></li>
-			        <li><a href="SubPages/Clientes/C_Telefono.aspx" target="_blank" onclick="window.open(this.href, this.target, 'width=960,height=900,top=50,left=500'); return false;">Telefono</a></li>
-                    <li><a href="SubPages/Clientes/C_TV.aspx" target="_blank" onclick="window.open(this.href, this.target, 'width=960,height=900,top=50,left=500'); return false;">TV</a></li>
-                    <li><a href="SubPages/Clientes/C_Internet.aspx" target="_blank" onclick="window.open(this.href, this.target, 'width=960,height=900,top=50,left=500'); return false;">Internet</a></li>
+			        <li><a href="SubPages/Clientes/C_AguayLuz.aspx" target="_blank" onclick="window.open(this.href, this.target, 'width=960,height=900,top=50,left=500'); return false;">Agua y Luz</a></li>
+			        <li><a href="SubPages/Clientes/C_TelefonoyPrepago.aspx" target="_blank" onclick="window.open(this.href, this.target, 'width=960,height=900,top=50,left=500'); return false;">Telefono</a></li>
+                    <li><a href="SubPages/Clientes/C_TVeInternet.aspx" target="_blank" onclick="window.open(this.href, this.target, 'width=960,height=900,top=50,left=500'); return false;">TV e Internet</a></li>
 		        </ul>
             </li>
-			<li><a >Salir</a></li>
+			<li><a href="Login.aspx">Salir</a></li>
 		</ul>
 	</div>
 	<div class="Central">
