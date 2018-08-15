@@ -27,7 +27,7 @@ ELSE
 	END
 go
 
-USE EntidadFinanciera --Ubicacion de la base de datos
+use EntidadFinanciera --Ubicacion de la base de datos
 go
 
 IF NOT EXISTS(select * from sysobjects where type = 'U' and name = 'Cliente')
@@ -109,7 +109,7 @@ IF NOT EXISTS(select * from sysobjects where type = 'U' and name = 'Transaccion'
 		create table Transaccion
 		(
 		    IdTransac 	int identity primary key,
-		    Cedula 		int primary key,
+		    Cedula 		int,
 		    CuentaDeb 	nvarchar(50) not null default('Sin Descripcion'),
 		    Descripcion nvarchar(50) not null default('Sin Descripcion'),
 		    Monto 		int not null defaul(1),
@@ -122,7 +122,6 @@ ELSE
 		print 'Tabla Transaccion ya existe'
 	END
 go
-
 
 --Omitir
 -- Lenguaje de Manipulacion de datos
