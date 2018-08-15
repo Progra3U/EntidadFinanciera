@@ -117,6 +117,7 @@
     <Content Include="SitioWeb\Pages\SubPages\Administradores\A_EstadosdeCuenta.aspx" />
     <Content Include="SitioWeb\Pages\SubPages\Administradores\A_Globales.aspx" />
     <Content Include="SitioWeb\Pages\SubPages\Administradores\A_Servicios.aspx" />
+    <Content Include="SitioWeb\Pages\SubPages\Administradores\A_Transacciones.aspx" />
     <Content Include="SitioWeb\Pages\SubPages\Administradores\A_Transferencias.aspx" />
     <Content Include="SitioWeb\Pages\SubPages\Administradores\A_Usuarios.aspx" />
     <Content Include="SitioWeb\Pages\SubPages\Clientes\C_AguayLuz.aspx" />
@@ -208,6 +209,13 @@
     </Compile>
     <Compile Include="SitioWeb\Pages\SubPages\Administradores\A_Servicios.aspx.designer.cs">
       <DependentUpon>A_Servicios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SitioWeb\Pages\SubPages\Administradores\A_Transacciones.aspx.cs">
+      <DependentUpon>A_Transacciones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SitioWeb\Pages\SubPages\Administradores\A_Transacciones.aspx.designer.cs">
+      <DependentUpon>A_Transacciones.aspx</DependentUpon>
     </Compile>
     <Compile Include="SitioWeb\Pages\SubPages\Administradores\A_Transferencias.aspx.cs">
       <DependentUpon>A_Transferencias.aspx</DependentUpon>

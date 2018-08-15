@@ -77,15 +77,5 @@ SET SaldoCuenta = @SaldoCuenta
 WHERE CuentaInterna = @CuentaInterna
 END
 go
---Creacion de pa para Transferencia de Cuentas Internas
-CREATE PROCEDURE pa_Cliente_AbonoRetiroIExterno
-	@CuentaInterna 	nvarchar(50),
-	@SaldoCuenta   	int
-AS
-BEGIN
-UPDATE Cliente
-SET SaldoCuenta = @SaldoCuenta
-WHERE CuentaInterna = @CuentaInterna
-END
-go
+
 

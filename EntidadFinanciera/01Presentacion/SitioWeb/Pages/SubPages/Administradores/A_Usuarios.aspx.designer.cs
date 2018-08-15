@@ -49,6 +49,15 @@ namespace _01Presentacion.SitioWeb.Pages.SubPages.Administradores {
         protected global::System.Web.UI.WebControls.TextBox Contrasena2;
         
         /// <summary>
+        /// Estado control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList Estado;
+        
+        /// <summary>
         /// Agregar control.
         /// </summary>
         /// <remarks>
