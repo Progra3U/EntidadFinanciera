@@ -4,29 +4,27 @@ go
 --Tabla Servicio
 
 CREATE PROCEDURE pa_Servicio_Insert
-	@IdSevicio 		int,
 	@DescServicio 	nvarchar(50),
 	@Estado 		bit
 AS 
 BEGIN
-INSERT INTO Servicio VALUES(@IdSevicio,@DescServicio,@Estado)
+INSERT INTO Servicio VALUES(@DescServicio,@Estado)
 END
 go
 
 CREATE PROCEDURE pa_Servicio_Update
-	@IdSevicio 		int,
 	@DescServicio 	nvarchar(50),
 	@Estado 		bit
 AS 
 BEGIN
 UPDATE Servicio
-SET IdSevicio = @IdSevicio, DescServicio = @DescServicio, Estado = @Estado
-WHERE IdSevicio = @IdSevicio
+SET DescServicio = @DescServicio, Estado = @Estado
+WHERE DescServicio = @DescServicio
 END
 go
 
 CREATE PROCEDURE pa_Servicio_Delete
-	@IdSevicio 		int
-DELETE FROM Servicio WHERE IdSevicio = @IdSevicio
+	@DescServicio 	nvarchar(50)
+DELETE FROM Servicio WHERE DescServicio = @DescServicio
 END
 go

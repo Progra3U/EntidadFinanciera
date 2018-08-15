@@ -4,7 +4,7 @@ go
 --Tabla Cliente
 
 CREATE PROCEDURE pa_Cliente_Insert
-	@cedula 		int primary key,
+	@cedula 		int,
 	@Nombre 		nvarchar(50),
 	@Apellido1     	nvarchar(50),
 	@Apellido2     	nvarchar(50),
@@ -30,7 +30,7 @@ END
 go
 
 CREATE PROCEDURE pa_Cliente_Update
-	@Cedula 		int primary key,
+	@Cedula 		int,
 	@Nombre 		nvarchar(50),
 	@Apellido1     	nvarchar(50),
 	@Apellido2     	nvarchar(50),
@@ -64,3 +64,28 @@ BEGIN
 DELETE FROM Cliente WHERE Cedula = @Cedula
 END
 go
+
+--Creacion de procesos almacenados para retiros y abonos
+--Creacion para Transferencia Cuentas Internas
+CREATE PROCEDURE pa_Cliente_AbonoRetiroInterno
+	@CuentaInterna 	nvarchar(50),
+	@SaldoCuenta   	int
+AS
+BEGIN
+UPDATE Cliente
+SET SaldoCuenta = @SaldoCuenta
+WHERE CuentaInterna = @CuentaInterna
+END
+go
+--Creacion de pa para Transferencia de Cuentas Internas
+CREATE PROCEDURE pa_Cliente_AbonoRetiroIExterno
+	@CuentaInterna 	nvarchar(50),
+	@SaldoCuenta   	int
+AS
+BEGIN
+UPDATE Cliente
+SET SaldoCuenta = @SaldoCuenta
+WHERE CuentaInterna = @CuentaInterna
+END
+go
+
