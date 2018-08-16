@@ -9,3 +9,17 @@ C:\Users\CARLOSANDRESPEREZMED\Documents\GitHub\EntidadFinanciera\EntidadFinancie
 C:\Users\CARLOSANDRESPEREZMED\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\02LogicaNegocios\obj\Debug\02LogicaNegocios.csproj.CopyComplete
 C:\Users\CARLOSANDRESPEREZMED\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\02LogicaNegocios\obj\Debug\02LogicaNegocios.dll
 C:\Users\CARLOSANDRESPEREZMED\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\02LogicaNegocios\obj\Debug\02LogicaNegocios.pdb
+C:\Users\Marce\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\02LogicaNegocios\bin\Debug\02LogicaNegocios.dll
+C:\Users\Marce\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\02LogicaNegocios\bin\Debug\02LogicaNegocios.pdb
+C:\Users\Marce\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\02LogicaNegocios\bin\Debug\03AccesoDatos.dll
+C:\Users\Marce\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\02LogicaNegocios\bin\Debug\04Entidades.dll
+C:\Users\Marce\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\02LogicaNegocios\bin\Debug\EntityFramework.dll
+C:\Users\Marce\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\02LogicaNegocios\bin\Debug\03AccesoDatos.pdb
+C:\Users\Marce\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\02LogicaNegocios\bin\Debug\04Entidades.pdb
+C:\Users\Marce\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\02LogicaNegocios\bin\Debug\04Entidades.dll.config
+C:\Users\Marce\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\02LogicaNegocios\bin\Debug\EntityFramework.xml
+C:\Users\Marce\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\02LogicaNegocios\obj\Debug\02LogicaNegocios.csprojAssemblyReference.cache
+C:\Users\Marce\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\02LogicaNegocios\obj\Debug\02LogicaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\Marce\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\02LogicaNegocios\obj\Debug\02LogicaNegocios.csproj.CopyComplete
+C:\Users\Marce\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\02LogicaNegocios\obj\Debug\02LogicaNegocios.dll
+C:\Users\Marce\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\02LogicaNegocios\obj\Debug\02LogicaNegocios.pdb
