@@ -23,8 +23,27 @@
                 <asp:TextBox class="textBox" size="30" type="email" ID="Correo" pattern="^[_a-z0-9-]+(.[_a-z0-9-]+)*@[a-z0-9-]+(.[a-z0-9-]+)*(.[a-z]{2,4})$" placeholder="email@server.doamin" required runat="server"></asp:TextBox> 
                 
                 
-            </form>
+           
             <asp:Button class="botones" ID="Buscar" runat="server" Text="Buscar" OnClick="Buscar_Click" />
+            <br />
+            <br />
+             <asp:GridView ID="gvAdministrador" runat="server" AutoGenerateColumns="false" 
+                           AllowPaging="true" Width="100%" PageSize="5" >
+                           <Columns>
+                               <asp:BoundField DataField="IdTransac" HeaderText="Transaccion" />
+                               <asp:BoundField DataField="cedula" HeaderText="Cédula" />
+                               <asp:BoundField DataField="Cuenta" HeaderText="Cuenta" />
+                               <asp:BoundField DataField="Simpe" HeaderText="Simpe" />
+                               <asp:BoundField DataField="descripcion" HeaderText="Descripcion" />
+                               <asp:BoundField DataField="Monto" HeaderText="Monto" />
+                               <asp:BoundField DataField="HorayFecha" HeaderText="HorayFecha" />
+                           </Columns>
+                       <AlternatingRowStyle BackColor="LightBlue" />
+                       <RowStyle BackColor ="LightGray" />
+                       <PagerStyle HorizontalAlign="Center" BackColor="WindowFrame" /> 
+                       <HeaderStyle HorizontalAlign="Center" BackColor="WindowFrame" />
+                       </asp:GridView>
+             </form>
         </section>
     </div>
 </body>

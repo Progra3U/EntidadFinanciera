@@ -24,6 +24,22 @@
             <asp:Button class="botones" ID="Actualizar" runat="server" Text="Actualizar" OnClick="Actualizar_Click" />
             <asp:Button Class="botones" ID="Buscar" runat="server" Text="Buscar" OnClick="Buscar_Click" />
             <asp:Button class="botones" ID="Eliminar" runat="server" Text="Eliminar" OnClick="Eliminar_Click" />
+              <br />
+             <br />
+              <asp:GridView ID="gvAdministrador" runat="server" AutoGenerateColumns="false" 
+                           AllowPaging="true" Width="100%" PageSize="5" >
+                           <Columns>
+                               <asp:CommandField ShowSelectButton="true" SelectText="Seleccione" />
+                               <asp:BoundField DataField="usuario" HeaderText="Usuario" />
+                               <asp:BoundField DataField="nombre" HeaderText="Nombre" />
+                               <asp:BoundField DataField="contrasena" HeaderText="Contraseña" />
+                               <asp:BoundField DataField="activo" HeaderText="Estado" />
+                           </Columns>
+                       <AlternatingRowStyle BackColor="LightBlue" />
+                       <RowStyle BackColor ="LightGray" />
+                       <PagerStyle HorizontalAlign="Center" BackColor="WindowFrame" />
+                       <HeaderStyle HorizontalAlign="Center" BackColor="WindowFrame" />
+                       </asp:GridView>
         </section>
     </div>
 </body>

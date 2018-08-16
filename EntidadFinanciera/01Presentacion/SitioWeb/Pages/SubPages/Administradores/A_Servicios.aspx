@@ -22,6 +22,20 @@
                 </asp:DropDownList>                
             </form>
             <asp:Button class="botones" ID="Ejecutar" runat="server" Text="Ejecutar" onclick="Ejecutar_Click" />
+            <br />
+             <br />
+              <asp:GridView ID="gvAdministrador" runat="server" AutoGenerateColumns="false" 
+                           AllowPaging="true" Width="100%" PageSize="5" >
+                           <Columns>
+                               <asp:CommandField ShowSelectButton="true" SelectText="Seleccione" />
+                               <asp:BoundField DataField="TipodeServicio" HeaderText="Tipo de servicio" />
+                               <asp:BoundField DataField="EstadoServ" HeaderText="Estado del Servicio" />
+                           </Columns>
+                       <AlternatingRowStyle BackColor="LightBlue" />
+                       <RowStyle BackColor ="LightGray" />
+                       <PagerStyle HorizontalAlign="Center" BackColor="WindowFrame" />
+                       <HeaderStyle HorizontalAlign="Center" BackColor="WindowFrame" />
+                       </asp:GridView>
         </section>
     </div>
 </body>
