@@ -40,12 +40,20 @@ namespace _01Presentacion.SitioWeb.Pages.SubPages.Administradores {
         protected global::System.Web.UI.WebControls.Button Ejecutar;
         
         /// <summary>
+<<<<<<< HEAD
         /// Control gvAdministrador.
+=======
+        /// Control gvPerfiles.
+>>>>>>> 77f7aa39f74103c556b7f255b3cde4b7433d88d6
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
+<<<<<<< HEAD
         protected global::System.Web.UI.WebControls.GridView gvAdministrador;
+=======
+        protected global::System.Web.UI.WebControls.GridView gvPerfiles;
+>>>>>>> 77f7aa39f74103c556b7f255b3cde4b7433d88d6
     }
 }

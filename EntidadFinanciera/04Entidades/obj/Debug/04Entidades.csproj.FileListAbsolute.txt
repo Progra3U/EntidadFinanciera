@@ -4,9 +4,17 @@ C:\Users\CARLOSANDRESPEREZMED\Documents\GitHub\EntidadFinanciera\EntidadFinancie
 C:\Users\CARLOSANDRESPEREZMED\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\04Entidades\obj\Debug\04Entidades.dll
 C:\Users\CARLOSANDRESPEREZMED\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\04Entidades\obj\Debug\04Entidades.pdb
 C:\Users\CARLOSANDRESPEREZMED\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\04Entidades\obj\Debug\04Entidades.csprojAssemblyReference.cache
+<<<<<<< HEAD
 C:\Users\Maynor\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\04Entidades\bin\Debug\04Entidades.dll
 C:\Users\Maynor\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\04Entidades\bin\Debug\04Entidades.pdb
 C:\Users\Maynor\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\04Entidades\obj\Debug\04Entidades.csprojAssemblyReference.cache
 C:\Users\Maynor\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\04Entidades\obj\Debug\04Entidades.csproj.CoreCompileInputs.cache
 C:\Users\Maynor\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\04Entidades\obj\Debug\04Entidades.dll
 C:\Users\Maynor\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\04Entidades\obj\Debug\04Entidades.pdb
+=======
+C:\Users\msalas21\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\04Entidades\bin\Debug\04Entidades.dll
+C:\Users\msalas21\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\04Entidades\bin\Debug\04Entidades.pdb
+C:\Users\msalas21\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\04Entidades\obj\Debug\04Entidades.csprojResolveAssemblyReference.cache
+C:\Users\msalas21\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\04Entidades\obj\Debug\04Entidades.dll
+C:\Users\msalas21\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\04Entidades\obj\Debug\04Entidades.pdb
+>>>>>>> 77f7aa39f74103c556b7f255b3cde4b7433d88d6
