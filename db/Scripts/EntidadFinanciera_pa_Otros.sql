@@ -74,11 +74,12 @@ END
 go
 
 --Creacion de pa para ver las Transacciones de clientes por ID
-create PROCEDURE pa_TransaccionesRegistradas
+ALTER PROCEDURE pa_TransaccionesRegistradas
 AS
 BEGIN
-	SELECT 	tnsc.IdTransac, tnsc.Cedula, tnsc.CuentaDeb, 
-			tnsc.Descripcion, tnsc.Monto, tnsc.HorayFecha
+	SELECT 	tnsc.IdTransac, tnsc.Cedula, tnsc.CuentaInterna, tnsc.CuentaSimpe, 
+	tnsc.Descripcion, tnsc.Monto, tnsc.HorayFecha
 	FROM Transaccion tnsc 
+	ORDER BY tnsc.IdTransac
 END
 go

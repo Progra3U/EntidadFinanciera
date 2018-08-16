@@ -432,7 +432,22 @@ namespace _03AccesoDatos
             try
             {
                 contexto = new EntidadFinancieraEntities();
-                //Pendiente Construccion
+                var consulta = contexto.pa_TransaccionesRegistradas().ToList();
+                if(consulta != null)
+                {
+                    foreach(var item in consulta)
+                    {
+                        Transaccion tnsc = new Transaccion();
+                        tnsc.IdTransac = item.IdTransac;
+                        tnsc.Cedula = item.Cedula;
+                        tnsc.CuentaInterna = item.CuentaInterna;
+                        tnsc.CuentaSimpe = item.CuentaSimpe;
+                        tnsc.Descripcion = item.Descripcion;
+                        tnsc.Monto = item.Monto;
+                        tnsc.HorayFecha = item.HorayFecha;
+                        lstResultado.Add(tnsc);
+                    }
+                }
             }
             catch (Exception ex)
             {

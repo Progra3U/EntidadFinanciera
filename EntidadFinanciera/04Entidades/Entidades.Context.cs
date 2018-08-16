@@ -295,9 +295,9 @@ namespace _04Entidades
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("pa_Servicio_Update", descServicioParameter, estadoParameter);
         }
     
-        public virtual int pa_TransaccionesRegistradas()
+        public virtual ObjectResult<pa_TransaccionesRegistradas_Result> pa_TransaccionesRegistradas()
         {
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("pa_TransaccionesRegistradas");
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<pa_TransaccionesRegistradas_Result>("pa_TransaccionesRegistradas");
         }
     
         public virtual int pa_Usuario_Delete(string usuario)

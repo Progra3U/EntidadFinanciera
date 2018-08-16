@@ -76,6 +76,9 @@
     <Compile Include="pa_Globales_Result.cs">
       <DependentUpon>Entidades.tt</DependentUpon>
     </Compile>
+    <Compile Include="pa_TransaccionesRegistradas_Result.cs">
+      <DependentUpon>Entidades.tt</DependentUpon>
+    </Compile>
     <Compile Include="pa_VerEstadoClientes_Result.cs">
       <DependentUpon>Entidades.tt</DependentUpon>
     </Compile>
