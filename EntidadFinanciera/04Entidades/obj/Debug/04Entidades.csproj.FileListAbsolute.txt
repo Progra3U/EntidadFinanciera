@@ -18,3 +18,13 @@ C:\Users\msalas21\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\04Entidad
 C:\Users\msalas21\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\04Entidades\obj\Debug\04Entidades.dll
 C:\Users\msalas21\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\04Entidades\obj\Debug\04Entidades.pdb
 >>>>>>> 77f7aa39f74103c556b7f255b3cde4b7433d88d6
+C:\Users\Marce\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\04Entidades\bin\Debug\04Entidades.dll.config
+C:\Users\Marce\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\04Entidades\bin\Debug\04Entidades.dll
+C:\Users\Marce\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\04Entidades\bin\Debug\04Entidades.pdb
+C:\Users\Marce\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\04Entidades\bin\Debug\EntityFramework.dll
+C:\Users\Marce\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\04Entidades\bin\Debug\EntityFramework.xml
+C:\Users\Marce\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\04Entidades\obj\Debug\04Entidades.csprojAssemblyReference.cache
+C:\Users\Marce\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\04Entidades\obj\Debug\04Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Marce\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\04Entidades\obj\Debug\04Entidades.csproj.CopyComplete
+C:\Users\Marce\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\04Entidades\obj\Debug\04Entidades.dll
+C:\Users\Marce\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\04Entidades\obj\Debug\04Entidades.pdb
