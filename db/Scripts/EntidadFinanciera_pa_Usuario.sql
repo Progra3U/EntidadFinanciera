@@ -29,6 +29,8 @@ go
 
 CREATE PROCEDURE pa_Usuario_Delete
 	@Usuario nvarchar(50)
+AS
+BEGIN
 DELETE FROM Usuario WHERE Usuario = @Usuario
 END
 go

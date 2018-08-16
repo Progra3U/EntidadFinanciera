@@ -8,14 +8,14 @@ IF NOT EXISTS(SELECT * FROM sysdatabases WHERE name = 'EntidadFinanciera')
 		create database EntidadFinanciera
 		ON(
 			NAME = 'EntidadFinanciera',
-			FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL13.SQL2016\MSSQL\DATA\EntidadFinanciera.mdf',
+			FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SQLSERVER\MSSQL\DATA\EntidadFinanciera.mdf',
 			SIZE = 1MB,
 			MAXSIZE = 10MB,
 			FILEGROWTH = 5
 		)
 		LOG ON(
 			NAME = 'EntidadFinanciera_log',
-			FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL13.SQL2016\MSSQL\DATA\EntidadFinanciera.ldf',
+			FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.SQLSERVER\MSSQL\Log\EntidadFinanciera.ldf',
 			SIZE = 1MB,
 			MAXSIZE = 10MB,
 			FILEGROWTH = 5
@@ -95,7 +95,7 @@ IF NOT EXISTS(select * from sysobjects where type = 'U' and name = 'BancoExteno'
 			IdTransacE 		int identity primary key,
 			CuentaExterna 	nvarchar(50) not null default('Sin Descripcion'),
 			DetalleTrans 	nvarchar(50) not null default('Sin Descripcion'),
-			Monto 			int not null defaul(1)
+			Monto 			int not null default(1)
 		)
 	END
 ELSE
@@ -110,9 +110,10 @@ IF NOT EXISTS(select * from sysobjects where type = 'U' and name = 'Transaccion'
 		(
 		    IdTransac 	int identity primary key,
 		    Cedula 		int,
-		    CuentaDeb 	nvarchar(50) not null default('Sin Descripcion'),
+		    CuentaInterna nvarchar(50) not null default('Sin Descripcion'),
+		    CuentaSimpe nvarchar(50) not null default('Sin Descripcion'),
 		    Descripcion nvarchar(50) not null default('Sin Descripcion'),
-		    Monto 		int not null defaul(1),
+		    Monto 		int not null default(1),
 		    HorayFecha 	datetime
 		
 		)
@@ -143,5 +144,4 @@ go
 --values (123456,'Jose', 'Gabriel',1000,'133123312','13312312312')
 --
 --SELECT * FROM Clientes INNER JOIN Transaccion on Clientes.cedula = Transaccion.cedula
-
 

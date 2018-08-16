@@ -65,17 +65,5 @@ DELETE FROM Cliente WHERE Cedula = @Cedula
 END
 go
 
---Creacion de procesos almacenados para retiros y abonos
---Creacion para Transferencia Cuentas Internas
-CREATE PROCEDURE pa_Cliente_AbonoRetiroInterno
-	@CuentaInterna 	nvarchar(50),
-	@SaldoCuenta   	int
-AS
-BEGIN
-UPDATE Cliente
-SET SaldoCuenta = @SaldoCuenta
-WHERE CuentaInterna = @CuentaInterna
-END
-go
 
 

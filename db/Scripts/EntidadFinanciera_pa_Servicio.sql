@@ -25,6 +25,8 @@ go
 
 CREATE PROCEDURE pa_Servicio_Delete
 	@DescServicio 	nvarchar(50)
+AS
+BEGIN
 DELETE FROM Servicio WHERE DescServicio = @DescServicio
 END
 go

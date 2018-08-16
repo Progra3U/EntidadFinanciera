@@ -25,8 +25,11 @@ WHERE CuentaExterna = @CuentaExterna
 END
 go
 
-CREATE PROCEDURE pa_BancoExtenoo_Delete
+CREATE PROCEDURE pa_BancoExteno_Delete
 	@CuentaExterna	nvarchar(50)
+AS
+BEGIN
 DELETE FROM BancoExteno WHERE CuentaExterna = @CuentaExterna
 END
 go
+
