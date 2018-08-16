@@ -291,7 +291,7 @@ namespace _03AccesoDatos
                     contexto.Dispose();
             }
         }
-        public static List<Cliente> MontosGlobales(Cliente Globales)
+        public static List<Cliente> MontosGlobales()
         {
             //para Estados Globales
             EntidadFinancieraEntities contexto = null;
@@ -331,7 +331,7 @@ namespace _03AccesoDatos
             try
             {
                 contexto = new EntidadFinancieraEntities();
-                var consulta = contexto.pa_EstadosdeCuenta();
+                var consulta = contexto.pa_EstadosdeCuenta(EstCuenta.Cedula);
                 if (consulta != null)
                 {
                     foreach (var item in consulta)
@@ -424,7 +424,7 @@ namespace _03AccesoDatos
             }
             return lstResultado;
         }
-        public static List<Transaccion> TransaccionesRegistradas(Transaccion TransReg)
+        public static List<Transaccion> TransaccionesRegistradas()
         {
             //para ver las Transacciones de clientes por ID
             EntidadFinancieraEntities contexto = null;

@@ -38,13 +38,14 @@ go
 
 --Creacion de pa para Estados de Cuenta Clientes
 ALTER PROCEDURE pa_EstadosdeCuenta
+	@Cedula int
 AS
 BEGIN
 	SELECT 	tnsc.IdTransac, tnsc.Cedula, tnsc.CuentaInterna, tnsc.CuentaSimpe, 
 			tnsc.Descripcion, tnsc.Monto, tnsc.HorayFecha,
 			cl.Cedula
-	FROM Transaccion tnsc 
-	INNER JOIN Cliente cl on tnsc.Cedula = cl.Cedula
+	FROM Transaccion tnsc
+	WHERE  tnsc.Cedula = @Cedula
 	ORDER BY tnsc.IdTransac
 END
 go
