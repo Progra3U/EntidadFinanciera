@@ -62,7 +62,7 @@ END
 go
 
 --Creacion de pa para ver Estados de los Clientes
-ALTER PROCEDURE pa_VerEstadoUsuarios
+CREATE PROCEDURE pa_VerEstadoClientes
 	@Estado bit
 AS
 BEGIN
