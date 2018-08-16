@@ -40,7 +40,7 @@ go
 ALTER PROCEDURE pa_EstadosdeCuenta
 AS
 BEGIN
-	SELECT 	tnsc.IdTransac, tnsc.Cedula, tnsc.CuentaDeb, 
+	SELECT 	tnsc.IdTransac, tnsc.Cedula, tnsc.CuentaInterna, tnsc.CuentaSimpe, 
 			tnsc.Descripcion, tnsc.Monto, tnsc.HorayFecha,
 			cl.Cedula
 	FROM Transaccion tnsc 
