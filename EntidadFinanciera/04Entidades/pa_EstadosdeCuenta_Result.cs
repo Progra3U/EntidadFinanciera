@@ -11,6 +11,7 @@ namespace _04Entidades
 {
     using System;
     
+    [Serializable]
     public partial class pa_EstadosdeCuenta_Result
     {
         public int IdTransac { get; set; }

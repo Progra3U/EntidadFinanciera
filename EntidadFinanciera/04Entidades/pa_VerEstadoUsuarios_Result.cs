@@ -11,6 +11,7 @@ namespace _04Entidades
 {
     using System;
     
+    [Serializable]
     public partial class pa_VerEstadoUsuarios_Result
     {
         public string Usuario { get; set; }

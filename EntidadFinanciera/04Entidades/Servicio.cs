@@ -12,6 +12,7 @@ namespace _04Entidades
     using System;
     using System.Collections.Generic;
     
+    [Serializable]
     public partial class Servicio
     {
         public int IdSevicio { get; set; }

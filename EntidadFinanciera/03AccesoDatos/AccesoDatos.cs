@@ -9,5 +9,6 @@ namespace _03AccesoDatos
 {
     public class AccesoDatos
     {
+        EntidadFinancieraEntities contexto = null;
     }
 }
