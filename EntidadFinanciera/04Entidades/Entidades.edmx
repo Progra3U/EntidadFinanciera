@@ -123,7 +123,9 @@
           <Parameter Name="Descripcion" Type="nvarchar" Mode="In" />
           <Parameter Name="Estado" Type="bit" Mode="In" />
         </Function>
-        <Function Name="pa_EstadosdeCuenta" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="pa_EstadosdeCuenta" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Cedula" Type="int" Mode="In" />
+        </Function>
         <Function Name="pa_Globales" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
         <Function Name="pa_Servicio_Delete" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
           <Parameter Name="DescServicio" Type="nvarchar" Mode="In" />
@@ -235,7 +237,9 @@
             <Parameter Name="Descripcion" Mode="In" Type="String" />
             <Parameter Name="Estado" Mode="In" Type="Boolean" />
           </FunctionImport>
-          <FunctionImport Name="pa_EstadosdeCuenta" ReturnType="Collection(EntidadFinancieraModel.pa_EstadosdeCuenta_Result)" />
+          <FunctionImport Name="pa_EstadosdeCuenta" ReturnType="Collection(EntidadFinancieraModel.pa_EstadosdeCuenta_Result)">
+            <Parameter Name="Cedula" Mode="In" Type="Int32" />
+          </FunctionImport>
           <FunctionImport Name="pa_Globales" ReturnType="Collection(EntidadFinancieraModel.pa_Globales_Result)" />
           <FunctionImport Name="pa_Servicio_Delete">
             <Parameter Name="DescServicio" Mode="In" Type="String" />
@@ -337,7 +341,6 @@
           <Property Type="String" Name="Descripcion" Nullable="false" MaxLength="50" />
           <Property Type="Int32" Name="Monto" Nullable="false" />
           <Property Type="DateTime" Name="HorayFecha" Nullable="true" Precision="23" />
-          <Property Type="Int32" Name="Cedula1" Nullable="false" />
         </ComplexType>
         <ComplexType Name="pa_Globales_Result">
           <Property Type="String" Name="Cuenta" Nullable="false" MaxLength="50" />
@@ -451,7 +454,6 @@
                 <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
                 <ScalarProperty Name="Monto" ColumnName="Monto" />
                 <ScalarProperty Name="HorayFecha" ColumnName="HorayFecha" />
-                <ScalarProperty Name="Cedula1" ColumnName="Cedula1" />
               </ComplexTypeMapping>
             </ResultMapping>
           </FunctionImportMapping>

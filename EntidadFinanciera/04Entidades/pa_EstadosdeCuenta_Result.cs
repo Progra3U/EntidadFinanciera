@@ -21,6 +21,5 @@ namespace _04Entidades
         public string Descripcion { get; set; }
         public int Monto { get; set; }
         public Nullable<System.DateTime> HorayFecha { get; set; }
-        public int Cedula1 { get; set; }
     }
 }

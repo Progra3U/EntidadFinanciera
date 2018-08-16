@@ -42,8 +42,7 @@ ALTER PROCEDURE pa_EstadosdeCuenta
 AS
 BEGIN
 	SELECT 	tnsc.IdTransac, tnsc.Cedula, tnsc.CuentaInterna, tnsc.CuentaSimpe, 
-			tnsc.Descripcion, tnsc.Monto, tnsc.HorayFecha,
-			cl.Cedula
+			tnsc.Descripcion, tnsc.Monto, tnsc.HorayFecha
 	FROM Transaccion tnsc
 	WHERE  tnsc.Cedula = @Cedula
 	ORDER BY tnsc.IdTransac

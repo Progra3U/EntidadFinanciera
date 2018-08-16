@@ -250,9 +250,13 @@ namespace _04Entidades
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("pa_Cliente_Update", cedulaParameter, nombreParameter, apellido1Parameter, apellido2Parameter, fechaNacParameter, telefonoParameter, correoParameter, provinciaParameter, direccionExacParameter, saldoCuentaParameter, contrasenaParameter, cuentaInternaParameter, cuentaSimpeParameter, descripcionParameter, estadoParameter);
         }
     
-        public virtual ObjectResult<pa_EstadosdeCuenta_Result> pa_EstadosdeCuenta()
+        public virtual ObjectResult<pa_EstadosdeCuenta_Result> pa_EstadosdeCuenta(Nullable<int> cedula)
         {
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<pa_EstadosdeCuenta_Result>("pa_EstadosdeCuenta");
+            var cedulaParameter = cedula.HasValue ?
+                new ObjectParameter("Cedula", cedula) :
+                new ObjectParameter("Cedula", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<pa_EstadosdeCuenta_Result>("pa_EstadosdeCuenta", cedulaParameter);
         }
     
         public virtual ObjectResult<pa_Globales_Result> pa_Globales()
