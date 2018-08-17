@@ -12,7 +12,6 @@ namespace _04Entidades
     using System;
     using System.Collections.Generic;
     
-    [Serializable]
     public partial class Cliente
     {
         public int Cedula { get; set; }

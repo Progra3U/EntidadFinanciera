@@ -250,13 +250,9 @@ namespace _04Entidades
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("pa_Cliente_Update", cedulaParameter, nombreParameter, apellido1Parameter, apellido2Parameter, fechaNacParameter, telefonoParameter, correoParameter, provinciaParameter, direccionExacParameter, saldoCuentaParameter, contrasenaParameter, cuentaInternaParameter, cuentaSimpeParameter, descripcionParameter, estadoParameter);
         }
     
-        public virtual ObjectResult<pa_EstadosdeCuenta_Result> pa_EstadosdeCuenta(Nullable<int> cedula)
+        public virtual ObjectResult<pa_EstadosdeCuenta_Result> pa_EstadosdeCuenta()
         {
-            var cedulaParameter = cedula.HasValue ?
-                new ObjectParameter("Cedula", cedula) :
-                new ObjectParameter("Cedula", typeof(int));
-    
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<pa_EstadosdeCuenta_Result>("pa_EstadosdeCuenta", cedulaParameter);
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<pa_EstadosdeCuenta_Result>("pa_EstadosdeCuenta");
         }
     
         public virtual ObjectResult<pa_Globales_Result> pa_Globales()
@@ -299,9 +295,9 @@ namespace _04Entidades
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("pa_Servicio_Update", descServicioParameter, estadoParameter);
         }
     
-        public virtual ObjectResult<pa_TransaccionesRegistradas_Result> pa_TransaccionesRegistradas()
+        public virtual int pa_TransaccionesRegistradas()
         {
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<pa_TransaccionesRegistradas_Result>("pa_TransaccionesRegistradas");
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("pa_TransaccionesRegistradas");
         }
     
         public virtual int pa_Usuario_Delete(string usuario)

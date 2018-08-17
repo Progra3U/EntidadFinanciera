@@ -4,9 +4,9 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 <body>
     <div id="wrap">
-      <h2 id="titulo">Montos Globales</h2>
+        <h2 id="titulo">Montos Globales</h2>
         <section id="FormUsuarios">
-            <form>
+             <form>
                 <asp:Label class="label"  runat="server" Text="Label"  For="saldoCuenta">Montos globales:</asp:Label>
                 <asp:TextBox class="textBox" size="30" type="text" ID="saldoCuenta" MaxLength="12" required runat="server"></asp:TextBox>
                 <br />

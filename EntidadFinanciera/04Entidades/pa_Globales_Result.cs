@@ -11,7 +11,6 @@ namespace _04Entidades
 {
     using System;
     
-    [Serializable]
     public partial class pa_Globales_Result
     {
         public string Cuenta { get; set; }

@@ -11,7 +11,6 @@ namespace _04Entidades
 {
     using System;
     
-    [Serializable]
     public partial class pa_EstadosdeCuenta_Result
     {
         public int IdTransac { get; set; }
@@ -21,5 +20,6 @@ namespace _04Entidades
         public string Descripcion { get; set; }
         public int Monto { get; set; }
         public Nullable<System.DateTime> HorayFecha { get; set; }
+        public int Cedula1 { get; set; }
     }
 }

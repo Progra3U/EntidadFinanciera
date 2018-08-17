@@ -7,15 +7,3 @@ C:\Users\CARLOSANDRESPEREZMED\Documents\GitHub\EntidadFinanciera\EntidadFinancie
 C:\Users\CARLOSANDRESPEREZMED\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\03AccesoDatos\obj\Debug\03AccesoDatos.csproj.CopyComplete
 C:\Users\CARLOSANDRESPEREZMED\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\03AccesoDatos\obj\Debug\03AccesoDatos.dll
 C:\Users\CARLOSANDRESPEREZMED\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\03AccesoDatos\obj\Debug\03AccesoDatos.pdb
-C:\Users\Marce\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\03AccesoDatos\bin\Debug\03AccesoDatos.dll
-C:\Users\Marce\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\03AccesoDatos\bin\Debug\03AccesoDatos.pdb
-C:\Users\Marce\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\03AccesoDatos\bin\Debug\04Entidades.dll
-C:\Users\Marce\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\03AccesoDatos\bin\Debug\EntityFramework.dll
-C:\Users\Marce\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\03AccesoDatos\bin\Debug\04Entidades.pdb
-C:\Users\Marce\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\03AccesoDatos\bin\Debug\04Entidades.dll.config
-C:\Users\Marce\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\03AccesoDatos\bin\Debug\EntityFramework.xml
-C:\Users\Marce\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\03AccesoDatos\obj\Debug\03AccesoDatos.csprojAssemblyReference.cache
-C:\Users\Marce\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\03AccesoDatos\obj\Debug\03AccesoDatos.csproj.CoreCompileInputs.cache
-C:\Users\Marce\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\03AccesoDatos\obj\Debug\03AccesoDatos.csproj.CopyComplete
-C:\Users\Marce\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\03AccesoDatos\obj\Debug\03AccesoDatos.dll
-C:\Users\Marce\Documents\GitHub\EntidadFinanciera\EntidadFinanciera\03AccesoDatos\obj\Debug\03AccesoDatos.pdb

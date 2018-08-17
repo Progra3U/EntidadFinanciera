@@ -38,24 +38,7 @@
                        </asp:GridView>
         </section>
           <tr>
-                   <td colspan="4">
-                       <asp:GridView ID="gvPerfiles" runat="server" AutoGenerateColumns="false" 
-                           AllowPaging="true" Width="100%" PageSize="5" 
-                           OnPageIndexChanging="gvPerfiles_PageIndexChanging"
-                           OnSelectedIndexChanging="gvPerfiles_SelectedIndexChanging" Height="171px" >
-                           <Columns>
-                               <asp:CommandField ShowSelectButton="true" SelectText="Seleccione" />
-                               <asp:BoundField DataField="codPago" HeaderText="Codigo" />
-                               <asp:BoundField DataField="TipoPago" HeaderText="Descripción" />
-                               <asp:BoundField DataField="Monto" HeaderText="Monto" />
-                           </Columns>
-                       <AlternatingRowStyle BackColor="LightBlue" />
-                       <RowStyle BackColor ="white" />
-                       <PagerStyle HorizontalAlign="Center" BackColor="WindowFrame" />
-                       <HeaderStyle HorizontalAlign="Center" BackColor="WindowFrame" />
-                       </asp:GridView>
-                   </td>
-               </tr>
+                   
     </div>
 </body>
 </asp:Content>
